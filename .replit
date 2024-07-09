@@ -1,4 +1,4 @@
-entrypoint = "Implementation/Game.py"
+entrypoint = "DFS_BFS/icecream.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Implementation/Game.py"]
+run = ["python3", "DFS_BFS/icecream.py"]
 deploymentTarget = "cloudrun"
