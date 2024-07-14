@@ -1,4 +1,4 @@
-entrypoint = "DFS_BFS/icecream.py"
+entrypoint = "Sort/methods.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "DFS_BFS/icecream.py"]
+run = ["python3", "Sort/methods.py"]
 deploymentTarget = "cloudrun"
