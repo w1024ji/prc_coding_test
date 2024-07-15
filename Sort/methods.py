@@ -14,8 +14,8 @@ print("array2: ", array2)
 # key parameter 사용
 array3 = [('바나나', 2), ('사과', 5), ('당근', 3)]
 
-def setting(data):
-  return data[1]
+# def setting(data):
+#   return data[0]
 
-result3 = sorted(array3, key=setting) # key값은 정렬 기준이 된다. 여기선 숫자
+result3 = sorted(array3, key=lambda data:data[1]) # key값은 정렬 기준이 된다. 여기선 숫자
 print("result3: ", result3)
