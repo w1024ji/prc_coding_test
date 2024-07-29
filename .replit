@@ -1,4 +1,4 @@
-entrypoint = "Sort/exchange.py"
+entrypoint = "Search/tteokbuokgi.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Sort/exchange.py"]
+run = ["python3", "Search/tteokbuokgi.py"]
 deploymentTarget = "cloudrun"
