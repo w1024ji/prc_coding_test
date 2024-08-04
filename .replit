@@ -1,4 +1,4 @@
-entrypoint = "Graph/kruskal.py"
+entrypoint = "Graph/team.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Graph/kruskal.py"]
+run = ["python3", "Graph/team.py"]
 deploymentTarget = "cloudrun"
