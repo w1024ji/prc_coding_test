@@ -1,4 +1,4 @@
-entrypoint = "Review/greedy/card_game.py"
+entrypoint = "Part3/Greedy/string.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Review/greedy/card_game.py"]
+run = ["python3", "Part3/Greedy/string.py"]
 deploymentTarget = "cloudrun"
