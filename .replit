@@ -1,4 +1,4 @@
-entrypoint = "Graph/team.py"
+entrypoint = "Review/greedy/card_game.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Graph/team.py"]
+run = ["python3", "Review/greedy/card_game.py"]
 deploymentTarget = "cloudrun"
