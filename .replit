@@ -1,4 +1,4 @@
-entrypoint = "Part3/Implementation/lucky.py"
+entrypoint = "Part3/Implementation/key.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Part3/Implementation/lucky.py"]
+run = ["python3", "Part3/Implementation/key.py"]
 deploymentTarget = "cloudrun"
