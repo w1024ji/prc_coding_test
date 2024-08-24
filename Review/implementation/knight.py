@@ -1,11 +1,11 @@
 loc = input()
-row = loc[0] # 행 x
-col = loc[1] # 열 y
+row = loc[1] # 행 
+col = loc[0] # 열 
 # 열을 숫자로 변환
 array=['0', 'a','b','c','d','e','f','g','h']
 for arr in array:
-  if row == arr:
-    row = array.index(arr)
+  if col == arr:
+    col = array.index(arr)
 
 print(row, col)
 row,col = int(row), int(col)

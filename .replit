@@ -1,4 +1,4 @@
-entrypoint = "Part3/Search/count_answer.py"
+entrypoint = "Review/implementation/game.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Part3/Search/count_answer.py"]
+run = ["python3", "Review/implementation/game.py"]
 deploymentTarget = "cloudrun"

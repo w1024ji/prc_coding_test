@@ -13,14 +13,14 @@ move_types=['D','U','R','L']
 x,y= 1,1 # 출발점
 
 for p in plan:
-  nx,ny=0,0
+  nx,ny=0,0                        # 출발점이 어디?
   for i in range(len(move_types)): # 한 단어당 4번씩 돌려준다
     if p == move_types[i]:
       nx = x + dx[i]
       ny = y + dy[i]
-  if nx<1 or ny<1 or nx>n or ny>n:
+  if nx<1 or ny<1 or nx>n or ny>n: # 만약 경계를 넘는다면 무시
     continue
-  x,y=nx,ny
+  x,y=nx,ny                        # 경계 안 넘으면 적용
 
 print(x,y)
 
