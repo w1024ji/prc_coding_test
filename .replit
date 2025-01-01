@@ -1,4 +1,4 @@
-entrypoint = "Review2/implementation/time.py"
+entrypoint = "Review2/implementation/knight.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Review2/implementation/time.py"]
+run = ["python3", "Review2/implementation/knight.py"]
 deploymentTarget = "cloudrun"
