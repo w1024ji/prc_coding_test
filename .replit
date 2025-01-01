@@ -1,4 +1,4 @@
-entrypoint = "Part3/Implementation/snake.py"
+entrypoint = "Review2/implementation/time.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Part3/Implementation/snake.py"]
+run = ["python3", "Review2/implementation/time.py"]
 deploymentTarget = "cloudrun"
