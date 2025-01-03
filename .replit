@@ -1,4 +1,4 @@
-entrypoint = "Review2/implementation/lucky_straight.py"
+entrypoint = "Review2/implementation/resort_str.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Review2/implementation/lucky_straight.py"]
+run = ["python3", "Review2/implementation/resort_str.py"]
 deploymentTarget = "cloudrun"
