@@ -17,3 +17,23 @@ if first_sum == second_sum:
   print('LUCKY')
 else:
   print('READY')
+  
+
+''' 책 해설 ''
+
+n = input()
+length = len(n)
+summary = 0     # summary 변수 하나로 합이 동일한지 아닌지 확인한다.
+                # 만약 값을 더하고 뺐는데 결과가 0이면 동일하다.
+for i in range(length // 2):
+  summary += int(n[i])   # n의 인덱스를 사용하자!
+
+for j in range(length // 2):
+  summary -= int(n[j])
+
+if summary == 0:
+  print("LUCKY")
+else:
+  print("READY")
+
+'''
