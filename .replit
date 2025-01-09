@@ -1,4 +1,4 @@
-entrypoint = "Review2/implementation/pillar_and_beam.py"
+entrypoint = "Review2/implementation/chicken_delivery.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Review2/implementation/pillar_and_beam.py"]
+run = ["python3", "Review2/implementation/chicken_delivery.py"]
 deploymentTarget = "cloudrun"
