@@ -1,4 +1,4 @@
-entrypoint = "Review2/dfs_bfs/escape_maze.py"
+entrypoint = "Review2/greedy/big_number.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Review2/dfs_bfs/escape_maze.py"]
+run = ["python3", "Review2/greedy/big_number.py"]
 deploymentTarget = "cloudrun"
