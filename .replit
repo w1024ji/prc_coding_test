@@ -1,4 +1,4 @@
-entrypoint = "Review2/dfs_bfs/find_city.py"
+entrypoint = "Review2/dfs_bfs/lab.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Review2/dfs_bfs/find_city.py"]
+run = ["python3", "Review2/dfs_bfs/lab.py"]
 deploymentTarget = "cloudrun"
