@@ -1,4 +1,4 @@
-entrypoint = "Review2/dfs_bfs/lab.py"
+entrypoint = "Review2/dfs_bfs/competitive_virus.py"
 modules = ["python-3.10"]
 
 [nix]
@@ -11,5 +11,5 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Review2/dfs_bfs/lab.py"]
+run = ["python3", "Review2/dfs_bfs/competitive_virus.py"]
 deploymentTarget = "cloudrun"
